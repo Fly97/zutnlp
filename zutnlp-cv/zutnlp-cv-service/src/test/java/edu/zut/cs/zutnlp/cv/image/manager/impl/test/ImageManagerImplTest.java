@@ -2,7 +2,7 @@ package edu.zut.cs.zutnlp.cv.image.manager.impl.test;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import edu.zut.cs.zutnlp.base.service.impl.GenericGenerator;
+import edu.zut.cs.zutnlp.cv.base.service.impl.GenericGenerator;
 import edu.zut.cs.zutnlp.cv.image.domain.Image;
 import edu.zut.cs.zutnlp.cv.manager.ImageManager;
 import org.apache.commons.io.FileUtils;

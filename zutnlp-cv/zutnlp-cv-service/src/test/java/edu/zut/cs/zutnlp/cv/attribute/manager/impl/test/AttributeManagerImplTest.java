@@ -3,8 +3,9 @@ package edu.zut.cs.zutnlp.cv.attribute.manager.impl.test;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONReader;
-import edu.zut.cs.zutnlp.base.service.impl.GenericGenerator;
+
 import edu.zut.cs.zutnlp.cv.attribute.domain.Attribute;
+import edu.zut.cs.zutnlp.cv.base.service.impl.GenericGenerator;
 import edu.zut.cs.zutnlp.cv.manager.AttributeManager;
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;

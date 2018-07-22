@@ -4,7 +4,7 @@ package edu.zut.cs.zutnlp.cv.synset.manager.impl.test;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import edu.zut.cs.zutnlp.base.service.impl.GenericGenerator;
+import edu.zut.cs.zutnlp.cv.base.service.impl.GenericGenerator;
 import edu.zut.cs.zutnlp.cv.manager.SynsetManager;
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;

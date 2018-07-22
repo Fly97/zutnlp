@@ -3,7 +3,7 @@ package edu.zut.cs.zutnlp.cv.questionandanswer.manager.impl.test;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONException;
 import com.alibaba.fastjson.JSONObject;
-import edu.zut.cs.zutnlp.base.service.impl.GenericGenerator;
+import edu.zut.cs.zutnlp.cv.base.service.impl.GenericGenerator;
 import edu.zut.cs.zutnlp.cv.manager.QasManager;
 import edu.zut.cs.zutnlp.cv.questionandanswer.domain.Qas;
 import org.junit.Test;

@@ -16,6 +16,7 @@
         <module>zutnlp-cv-base</module>
         <module>zutnlp-cv-service</module>
         <module>zutnlp-cv-web</module>
+        <module>zutnlp-cv-base</module>
     </modules>
 
     <dependencies>

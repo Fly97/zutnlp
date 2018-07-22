@@ -1,4 +1,4 @@
-package edu.zut.cs.zutnlp.cv.config;
+package edu.zut.cs.zutnlp.cv.base.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
