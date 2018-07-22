@@ -11,6 +11,7 @@
 		<module>zutnlp-cv</module>
 		<module>zutnlp-resource</module>
 		<module>zutnlp-admin</module>
+		<module>zutnlp-base</module>
 	</modules>
     <packaging>pom</packaging>
 
@@ -50,7 +51,7 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.47</version>
 		</dependency>
-	</dependencies>
+		</dependencies>
 
 	<build>
 		<plugins>

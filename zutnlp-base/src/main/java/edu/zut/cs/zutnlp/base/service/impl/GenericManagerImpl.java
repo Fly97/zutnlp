@@ -1,13 +1,15 @@
 package edu.zut.cs.zutnlp.base.service.impl;
 
-import edu.zut.cs.object.detection.base.dao.GenericDao;
-import edu.zut.cs.object.detection.base.domain.BaseEntity;
-import edu.zut.cs.object.detection.base.service.GenericManager;
+
+
+import edu.zut.cs.zutnlp.base.dao.GenericDao;
+import edu.zut.cs.zutnlp.base.domain.BaseEntity;
+import edu.zut.cs.zutnlp.base.service.GenericManager;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
+import javax.transaction.Transactional;
 import java.io.Serializable;
 import java.util.List;
 
@@ -19,7 +21,7 @@ public class GenericManagerImpl<T extends BaseEntity, PK extends Serializable> i
     protected GenericDao<T, PK> dao;
 
     public void delete(PK id) {
-        this.dao.delete(id);
+        this.dao.deleteById(id);
     }
 
     public List<T> findAll() {
@@ -36,7 +38,7 @@ public class GenericManagerImpl<T extends BaseEntity, PK extends Serializable> i
     }
 
     public List<T> save(Iterable<T> entities) {
-        return this.dao.save(entities);
+        return this.dao.saveAll(entities);
     }
 
     public T save(T entity) {
