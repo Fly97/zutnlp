@@ -10,6 +10,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>zutnlp-cv</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>zutnlp-cv-dao</module>
+        <module>zutnlp-cv-base</module>
+        <module>zutnlp-cv-service</module>
+        <module>zutnlp-cv-web</module>
+    </modules>
+
+    <dependencies>
+    <dependency>
+
+        <groupId>com.edu.cs</groupId>
+        <artifactId>zutnlp-base</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    </dependencies>
 
 
 </project>
