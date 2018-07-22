@@ -18,7 +18,6 @@ import java.util.Properties;
 @Configuration
 @EnableJpaRepositories(basePackages = "edu.zut.cs.zutnlp.cv.*")
 public class JpaConfiguration {
-
     @Bean
     PersistenceExceptionTranslationPostProcessor persistenceExceptionTranslationPostProcessor(){
         return new PersistenceExceptionTranslationPostProcessor();
