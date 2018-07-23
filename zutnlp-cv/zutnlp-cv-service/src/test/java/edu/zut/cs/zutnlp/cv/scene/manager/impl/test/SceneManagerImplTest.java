@@ -3,7 +3,7 @@ package edu.zut.cs.zutnlp.cv.scene.manager.impl.test;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import edu.zut.cs.zutnlp.cv.base.service.impl.GenericGenerator;
+import edu.zut.cs.zutnlp.base.service.impl.GenericGenerator;
 import edu.zut.cs.zutnlp.cv.manager.MyObjectManager;
 import edu.zut.cs.zutnlp.cv.manager.RelationshipManager;
 import edu.zut.cs.zutnlp.cv.manager.SceneManager;

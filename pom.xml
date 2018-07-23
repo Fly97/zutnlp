@@ -12,6 +12,7 @@
 		<module>zutnlp-resource</module>
 		<module>zutnlp-admin</module>
 		<module>zutnlp-base</module>
+		<module>zutnlp-admin</module>
 	</modules>
     <packaging>pom</packaging>
 
