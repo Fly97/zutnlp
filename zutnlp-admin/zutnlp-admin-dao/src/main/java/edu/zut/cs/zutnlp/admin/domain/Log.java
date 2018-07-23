@@ -1,4 +1,4 @@
-package edu.zut.cs.zutnlp.admin.admin.domain;
+package edu.zut.cs.zutnlp.admin.domain;
 
 
 import edu.zut.cs.zutnlp.base.domain.BaseEntity;
