@@ -3,27 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>zutnlp</artifactId>
+        <artifactId>zutnlp-text</artifactId>
         <groupId>com.edu.cs</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>zutnlp-text</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>zutnlp-text-base</module>
-        <module>zutnlp-text-web</module>
-        <module>zutnlp-text-dao</module>
-        <module>zutnlp-text-service</module>
-    </modules>
-
+    <groupId>edu.zut.cs.zutnlp</groupId>
+    <artifactId>zutnlp-text-service</artifactId>
     <dependencies>
         <dependency>
-
-            <groupId>com.edu.cs</groupId>
-            <artifactId>zutnlp-base</artifactId>
+            <groupId>edu.zut.cs.zutnlp</groupId>
+            <artifactId>zutnlp-text-dao</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
+
+
 </project>
