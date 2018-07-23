@@ -1,4 +1,4 @@
-package edu.zut.cs.zutnlp.admin.admin.dao;
+package edu.zut.cs.zutnlp.admin.dao;
 
 import edu.zut.cs.zutnlp.base.dao.GenericDao;
 
