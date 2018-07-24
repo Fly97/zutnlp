@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://202.196.37.91:3306/zutnlp-cs-admin?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://202.196.37.91:3306/zutnlp-student?useUnicode=true&characterEncoding=utf8
     username: zutlnp
     password: zutlnp
   jpa:
