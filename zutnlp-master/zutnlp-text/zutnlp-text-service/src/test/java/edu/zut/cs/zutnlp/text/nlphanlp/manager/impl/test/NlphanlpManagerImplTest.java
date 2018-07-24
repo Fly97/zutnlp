@@ -2,7 +2,6 @@ package edu.zut.cs.zutnlp.text.nlphanlp.manager.impl.test;
 
 
 import edu.zut.cs.zutnlp.base.service.impl.GenericGenerator;
-import edu.zut.cs.zutnlp.text.manager.NlpManager;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
