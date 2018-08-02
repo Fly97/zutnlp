@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/fenci.js"></script>
+    <script src="https://cdn.bootcss.com/vue/2.3.0/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
+    <style>
+        #th th{
+            background-color: #50a9fa;
+            color: aliceblue;
+            font-size: large;
+        }
+    </style>
+</head>
+<body >
+<div id="app" align="center">
+    <input type="text" v-model="id">
+    <input type="text" v-model="pname">
+    <button @click="addData">添加数据</button>
+    <table id="th" border="1"solid width="400px">
+        <tr>
+            <td class="active">id</td>
+            <td class="success">原文</td>
+            <td class="warning">结果</td>
+            <td class="danger">分词</td>
+            <td class="info">词性</td>
+        </tr>
+        <tr ms-for="el in list">
+            <td >{{el.id}}</td>
+            <td >{{el.text}}</td>
+            <td>{{el.resulttext}}</td>
+            <td >{{el.words}}</td>
+            <td >{{el.parts}}</td>
+                <a href="javascript:void(0)" >删除</a>
+            </td>
+        </tr>
+    </table>
+</div>
+<script>
