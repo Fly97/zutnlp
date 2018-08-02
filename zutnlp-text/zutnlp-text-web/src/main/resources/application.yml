@@ -1,13 +1,12 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://202.196.37.91:3306/zutnlp-text
-    username: zutnlp
-    password: zutnlp
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    database: MYSQL
 server:
-  port: 8089
+  port: 8888
+spring:
+      thymeleaf:
+                cache: false
+                prefix: classpath:/templates/
+                suffix: .html
+                encoding: UTF-8
+                mode: HTML5
+
+prop:
+  upload-folder: zutnlp-text/zutnlp-text-web/src/main/resources/static/text/
