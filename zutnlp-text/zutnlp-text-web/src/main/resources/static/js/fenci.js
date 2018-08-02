@@ -1,30 +1,19 @@
+Vue.use(VueResource);   //这个一定要加上，指的是调用vue-resource.js
 new Vue({
-    el:'#app',
-    data:{
-        list:[]
+    el: '#app',   //div的id
+    data: {
+        Info: ""  //数据，名称自定
     },
-    //vue对象实例创建成功之后就会自动调用这个方法
-    //如果你想写的方法在舒适化的时候就被调用的话就要要用到created这个
-    created:function () {
-        this.getlist();//这里定义这个方法，vue实例之后运行到这里就调用这个函数
-    },
-    methods:{
-        getlist:function () {
-            //请求服务器的api获取到品牌的数据列表
-            this.$http.get('http://localhost:8888/hanlp/list').then(function (response) {
-                //处理服务器异常信息提示
-                if(response.body.status!=0)
-                {
-                    alert(response.body.message);
-                    return ;
-                }
-                //处理正常的逻辑数据处理
-                this.list=response.body.message;
-
-            });
-
-
-        }
-
+    created: function () { //created方法，页面初始调用  
+        var url = "http://localhost:8888/hanlp/getone";
+        this.$http.get(url).then(function (data) {  //ajax请求封装
+            var json = data.bodyText;
+            var usedData= JSON.parse(json);
+            //我的json数据参考下面
+            this.Info = usedData["libraryBooks"];
+        }, function (response) {   //返回失败方法调用，暂不处理
+            console.info(response);
+        })
     }
 });
+</script>

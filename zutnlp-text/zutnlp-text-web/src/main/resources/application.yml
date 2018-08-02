@@ -7,6 +7,3 @@ spring:
                 suffix: .html
                 encoding: UTF-8
                 mode: HTML5
-
-prop:
-  upload-folder: zutnlp-text/zutnlp-text-web/src/main/resources/static/text/

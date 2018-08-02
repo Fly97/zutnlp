@@ -10,4 +10,5 @@ import java.util.List;
 public interface ChineseManager extends GenericManager<Chrecognition,Long> {
     public List<Chrecognition> findAllChinese();
     //public void add(String text);
+    public Chrecognition findlastid();
 }

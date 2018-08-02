@@ -31,6 +31,11 @@ public class ChineseManagerImpl extends GenericManagerImpl<Chrecognition,Long>
         return chrecognitionDao.findAll();
     }
 
+    @Autowired
+    public Chrecognition findlastid(){
+        return chrecognitionDao.findlastId();
+    }
+
     /*
     @Autowired
     public void add(String text) {
