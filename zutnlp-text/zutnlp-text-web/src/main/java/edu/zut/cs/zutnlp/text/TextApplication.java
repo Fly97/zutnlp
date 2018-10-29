@@ -1,12 +1,15 @@
 package edu.zut.cs.zutnlp.text;
 
 
-import edu.zut.cs.zutnlp.text.base.config.JpaConfiguration ;
+
+import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@EnableSwagger2Doc
 public class TextApplication {
+
 
     public static void main(String[] args) {
         SpringApplication.run(TextApplication.class, args);

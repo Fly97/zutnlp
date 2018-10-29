@@ -1,5 +1,6 @@
 package edu.zut.cs.zutnlp.text.Chinese.domain;
 
+import com.hankcs.hanlp.HanLP;
 import edu.zut.cs.zutnlp.base.domain.BaseEntity;
 
 import javax.persistence.Column;
@@ -22,6 +23,31 @@ public class Chrecognition extends BaseEntity {
     @Column(name="Parts")
     private String Parts;
 
+    public Chrecognition(){}
+
+    public Chrecognition(String text){
+        String resulttext=HanLP.segment(text).toString();
+        String words = "",parts = "",str;
+        int count=0;
+        str=resulttext.replace("[", "");
+        str=str.replace("]", "");
+        String[] temp;
+        temp=str.split(",");
+        for(int i=0;i<temp.length;i++) {
+            String[] d;
+            d=temp[i].split("/");
+            if(!d[1].equals("w"))
+            {
+                words=words+d[0]+",";
+                parts=parts+d[1]+",";
+                count++;
+            }
+        }
+        this.text=text;
+        this.resulttext=resulttext;
+        this.Words=words;
+        this.Parts=parts;
+    }
 
     public String getText() {
         return text;

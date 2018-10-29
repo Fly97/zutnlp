@@ -5,8 +5,10 @@
     <title>中文分词</title>
     <link rel="stylesheet" type="text/css" th:href="@{/css/chinese.css}"/>
 </head>
-<body id="app">
-<h1 th:text="${msg}" style="text-align:center">中文分词</h1>
+<body ms-controller="viewmodel">
+<input size="100 " id="txt"/>
+<input type="button" value="提交" onclick="sub()">
+<button type="button" class="btn btn-primary" style="margin: 10px;" ms-click="@request">{{@text}}</button>
 <table class="table table-striped">
     <thead>
     <tr>
@@ -18,18 +20,42 @@
     </tr>
     </thead>
     <tbody>
-    <tr v-for="item in list">
-        <td >{{item.id}}</td>
-        <td >{{item.text}}</td>
-        <td>{{item.resulttext}}</td>
-        <td >{{item.words}}</td>
-        <td >{{item.parts}}</td>
+    <tr ms-for="el in @datalist">
+        <td >{{el.id}}</td>
+        <td >{{el.text}}</td>
+        <td>{{el.resulttext}}</td>
+        <td >{{el.words}}</td>
+        <td >{{el.parts}}</td>
     </tr>
     </tbody>
 </table>
 </body>
 <script th:src="@{/js/jquery-3.2.1.min.js}"></script>
-<script th:src="@{/js/vue.min.js}"></script>
-<script th:src="@{/js/vue-resource.min.js}"></script>
-<script th:src="@{/js/fenci.js}"></script>
+<script th:src="@{/js/avalon.js}"></script>
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<script th:src="@{/js/chinese.js}"></script>
+<script>
+    function sub(){
+        var content = document.getElementById("txt");
+        var postData={
+            "text": content.value,
+            "textid":2
+        }
+        $.ajax({
+            async:false,
+            cache:false,
+            type:'POST',
+            url:'/hanlp/delete',
+            dataType:"json",
+            contentType:'application/json',
+            data:JSON.stringify(postData),
+            error : function() {
+                alert('导入成功！！');
+            },
+            success : function(data) {
+                alert("成功！！");
+            }
+        });
+    }
+</script>
 </html>

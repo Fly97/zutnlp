@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b27f887f-4523-4a75-85fd-22d389ce1884" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_commons_lang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-admin/zutnlp-admin-dao/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/config/JpaConfiguration$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/config/JpaConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/controller/GenericController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/dao/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/domain/BaseDomain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/domain/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/service/GenericManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/service/impl/GenericGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/service/impl/GenericManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/service/impl/TestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-dao/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/css/qas/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/js/image/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/js/qas/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/js/qas/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/page/object/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/page/qas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Keyrecognition/dao/KeyrecognitionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Keyrecognition/domain/Keyrecognition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/dao/ClassifyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/domain/Classify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Url/dao/UrlRecognitionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Url/domain/UrlRecogntion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/dao/GrarecognitionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/THULAC_java_v1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/apache-commons-lang.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/commons-codec-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/liblinear-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/libsvm.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/model/category" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/model/lexicon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/model/maxFeatures" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/model/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Keyrecognition/dao/KeyrecognitionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Keyrecognition/domain/Keyrecognition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Recognition/dao/ClassifyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Recognition/domain/Classify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Url/dao/UrlRecognitionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Url/domain/UrlRecogntion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/THULAC_java_v1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/apache-commons-lang.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/commons-codec-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/liblinear-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/libsvm.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/model/category" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/model/lexicon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/model/maxFeatures" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/model/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/ClassifyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/GrammarManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/KeyrecognitionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/UrlManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ClassifyManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/UrlManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/classify/manager/impl/ClassifyManagerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/grammar/manager/impl/grammarManagerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/keyrecognition/manager/impl/KeyrecognitionManagerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/url/manager/impl/UrlManagerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/ClassifyManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/KeyrecognitionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/UrlManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/ClassifyManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/KeyrecognitionManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/UrlManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/classify/manager/impl/ClassifyManagerImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/grammar/manager/impl/grammarManagerImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/keyrecognition/manager/impl/KeyrecognitionManagerImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/url/manager/impl/UrlManagerImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/classify/web/spring/controller/ClassifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/grammar/web/spring/controller/grammarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/keyrecognition/web/spring/controller/KeyrecognitionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/pinyin/web/spring/controller/PinyinRecognitionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/url/web/spring/controller/UrlRecognititionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/css/keyrecognition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/keyrecognition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/zhaiyao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/bbbb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/keyrecognition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/classify/web/spring/controller/ClassifyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/grammar/web/spring/controller/grammarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/keyrecognition/web/spring/controller/KeyrecognitionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/pinyin/web/spring/controller/PinyinRecognitionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/url/web/spring/controller/UrlRecognititionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/css/keyrecognition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/keyrecognition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/zhaiyao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/bbbb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/keyrecognition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-base/src/main/java/edu/zut/cs/zutnlp/cv/base/service/impl/GenericGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-base/src/main/java/edu/zut/cs/zutnlp/cv/base/service/impl/GenericGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/src/main/java/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/src/main/java/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/target/classes/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/target/classes/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/zutnlp-text-base.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Abstractkey/dao/KeyrecognitionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Abstractkey/domain/Keyrecognition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/dao/ChrecognitionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/dao/ChrecognitionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Pinyin/dao/PinyinRecognitionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Pinyin/dao/PinyinRecognitionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Pinyin/domain/PinyinRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Pinyin/domain/PinyinRecognition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/dao/grarecognitionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Abstractkey/dao/KeyrecognitionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Abstractkey/domain/Keyrecognition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Chinese/dao/ChrecognitionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Chinese/dao/ChrecognitionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Pinyin/dao/PinyinRecognitionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Pinyin/dao/PinyinRecognitionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Pinyin/domain/PinyinRecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Pinyin/domain/PinyinRecognition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/grammar/dao/grarecognitionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/grammar/dao/grarecognitionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/zutnlp-text-dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/AbstractkeyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/ChineseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/ChineseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/PinyinManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/PinyinManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/grammarManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/AbstractkeyManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/KeyrecognitionManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/PinyinManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/PinyinManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/abstractkey/manager/impl/AbstractkeyManagerImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/pinyin/manager/impl/PinyinManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/pinyin/manager/impl/PinyinManagerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/AbstractkeyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/ChineseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/ChineseManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/PinyinManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/PinyinManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/grammarManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/grammarManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/AbstractkeyManagerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/PinyinManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/PinyinManagerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/abstractkey/manager/impl/AbstractkeyManagerImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/pinyin/manager/impl/PinyinManagerImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/pinyin/manager/impl/PinyinManagerImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/TextApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/TextApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/chinese.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/chinese.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/fenci.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/fenci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/savetodb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/chinese.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/fenci.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/fenci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/named.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/bbb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/savetodb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/TextApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/TextApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/js/Chinese/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/css/image/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/page/Abstractkey/inedx.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/page/image/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/page/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/page/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/chinese.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/chinese.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/fenci.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/fenci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/savetodb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/chinese.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/fenci.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/fenci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/named.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/bbb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/savetodb.html" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/zutnlp-resource/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-base/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-service/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-text/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-dao/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-admin/zutnlp-admin-dao/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-admin/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-admin/zutnlp-admin-web/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-base/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-cv/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-admin/zutnlp-admin-service/target/" />
+    <ignored path="$PROJECT_DIR$/zutnlp-admin/zutnlp-admin-base/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Classify.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/domain/Classify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chrecognition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grarecognition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChrecognitionController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassifyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/classify/web/spring/controller/ClassifyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlRecognititionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/url/web/spring/controller/UrlRecognititionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grammarController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/grammar/web/spring/controller/grammarController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyrecognitionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/keyrecognition/web/spring/controller/KeyrecognitionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Keyrecognition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Keyrecognition/domain/Keyrecognition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlRecogntion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Url/domain/UrlRecogntion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="44" column="24" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/KeyrecognitionManagerImpl.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/PinyinManagerImpl.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/dao/grarecognitionDao.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/grammarManager.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/dao/GrarecognitionDao.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/GrammarManager.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/keyrecognition/manager/impl/KeyrecognitionManagerImplTest.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/grammar/manager/impl/grammarManagerImplTest.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/grammar/web/spring/controller/grammarController.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/src/main/java/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/domain/perinformation.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/dao/ClassifyDao.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/ClassifyManager.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/domain/Classif.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/domain/Classify.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/classify/web/spring/controller/ClassifyController.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ClassifyManagerImpl.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/classify/manager/impl/ClassifyManagerImplTest.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Url/dao/UrlRecognitionDao.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/UrlManager.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/UrlManagerImpl.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/url/manager/impl/UrlManagerImplTest.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Url/domain/UrlRecogntion.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/pom.xml" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/TextApplication.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/keyrecognition/web/spring/controller/KeyrecognitionController.java" />
+        <option value="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/url/web/spring/controller/UrlRecognititionController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Java/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zutnlp-cv-dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="Chinese" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="Chinese" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="grammar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="grammar" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="Keyrecognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="Keyrecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="Recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="Url" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="Url" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zutnlp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zutnlp" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text" type="462c0819:PsiDirectoryNode" />
+              <item name="zutnlp-text-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/测试/zutnlp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\zutnlp\zutnlp-text\zutnlp-text-dao\src\main\java\edu\zut\cs\zutnlp\text" />
+      <recent name="D:\project\zutnlp\zutnlp-text\zutnlp-text-dao\src\main\java\edu\zut\cs\zutnlp\text\Recognition" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TextApplication">
+    <configuration name="Classify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.zut.cs.zutnlp.text.Recognition.domain.Classify" />
+      <module name="zutnlp-text-dao" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.zut.cs.zutnlp.text.Recognition.domain.Classify" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ClassifyManagerImplTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.zut.cs.zutnlp.text.classify.manager.impl.ClassifyManagerImplTest" />
+      <module name="zutnlp-text-service" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.zut.cs.zutnlp.text.classify.manager.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.zut.cs.zutnlp.text.TestApplication" />
+      <module name="zutnlp-text-service" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.zut.cs.zutnlp.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ClassifyManagerImplTest.data" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zutnlp-text-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.zut.cs.zutnlp.text.classify.manager.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.zut.cs.zutnlp.text.classify.manager.impl" />
+      <option name="MAIN_CLASS_NAME" value="edu.zut.cs.zutnlp.text.classify.manager.impl.ClassifyManagerImplTest" />
+      <option name="METHOD_NAME" value="data" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UrlManagerImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zutnlp-text-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.zut.cs.zutnlp.text.url.manager.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.zut.cs.zutnlp.text.url.manager.impl" />
+      <option name="MAIN_CLASS_NAME" value="edu.zut.cs.zutnlp.text.url.manager.impl.UrlManagerImplTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zutnlp-admin-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.zut.cs.zutnlp.admin.AdminApplication" />
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zutnlp-cv-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.zut.cs.zutnlp.cv.Application" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zutnlp-text-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.zut.cs.zutnlp.text.base.service.impl.Application" />
+    </configuration>
+    <configuration name="TestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zutnlp-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.zut.cs.zutnlp.base.service.impl.TestApplication" />
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zutnlp-cv-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.zut.cs.zutnlp.cv.base.service.impl.TestApplication" />
+    </configuration>
+    <configuration name="TextApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="text" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.zut.cs.zutnlp.text.TextApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.TextApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.TestApplication (1)" />
+      <item itemvalue="Application.Classify" />
+      <item itemvalue="JUnit.ClassifyManagerImplTest.data" />
+      <item itemvalue="Application.ClassifyManagerImplTest" />
+      <item itemvalue="Application.TestApplication" />
+      <item itemvalue="JUnit.UrlManagerImplTest.add" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UrlManagerImplTest.add" />
+        <item itemvalue="JUnit.ClassifyManagerImplTest.data" />
+        <item itemvalue="Application.TestApplication" />
+        <item itemvalue="Application.ClassifyManagerImplTest" />
+        <item itemvalue="Application.Classify" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b27f887f-4523-4a75-85fd-22d389ce1884" name="Default" comment="" />
+      <created>1537175036658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537175036658</updated>
+      <workItem from="1537175038343" duration="2189000" />
+      <workItem from="1537234367850" duration="1219000" />
+      <workItem from="1537275593242" duration="3017000" />
+      <workItem from="1537339291555" duration="3164000" />
+      <workItem from="1537351889023" duration="922000" />
+      <workItem from="1537410713670" duration="1565000" />
+      <workItem from="1537416232991" duration="816000" />
+      <workItem from="1537417164201" duration="558000" />
+      <workItem from="1537430451104" duration="316000" />
+      <workItem from="1537445214504" duration="494000" />
+      <workItem from="1537447927714" duration="893000" />
+      <workItem from="1537449761818" duration="5489000" />
+      <workItem from="1537492964974" duration="5094000" />
+      <workItem from="1537536491241" duration="5364000" />
+      <workItem from="1537671474359" duration="1016000" />
+      <workItem from="1537677849442" duration="481000" />
+      <workItem from="1537945737459" duration="592000" />
+      <workItem from="1537968409139" duration="506000" />
+      <workItem from="1538143069157" duration="6953000" />
+      <workItem from="1538177912427" duration="9442000" />
+      <workItem from="1538488751187" duration="797000" />
+      <workItem from="1539242426779" duration="1209000" />
+      <workItem from="1539422452465" duration="2039000" />
+      <workItem from="1539609839937" duration="585000" />
+      <workItem from="1539667184500" duration="601000" />
+      <workItem from="1539677306076" duration="130000" />
+      <workItem from="1539701053518" duration="1260000" />
+      <workItem from="1539757757066" duration="1320000" />
+      <workItem from="1540191573425" duration="119000" />
+      <workItem from="1540384872779" duration="1174000" />
+      <workItem from="1540542382210" duration="2666000" />
+      <workItem from="1540564386810" duration="1200000" />
+      <workItem from="1540621507193" duration="5119000" />
+      <workItem from="1540688889227" duration="2751000" />
+      <workItem from="1540713314303" duration="6022000" />
+      <workItem from="1540799646928" duration="2005000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ClassifyManagerImplTest_data - 2018.09.29 at 15h 37m 25s.xml">
+      <configuration name="ClassifyManagerImplTest.data" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassifyManagerImplTest_data - 2018.09.29 at 15h 39m 05s.xml">
+      <configuration name="ClassifyManagerImplTest.data" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassifyManagerImplTest_data - 2018.09.29 at 16h 57m 06s.xml">
+      <configuration name="ClassifyManagerImplTest.data" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrlManagerImplTest_add - 2018.10.27 at 15h 05m 04s.xml">
+      <configuration name="UrlManagerImplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrlManagerImplTest_add - 2018.10.27 at 15h 06m 36s.xml">
+      <configuration name="UrlManagerImplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrlManagerImplTest_add - 2018.10.27 at 15h 11m 33s.xml">
+      <configuration name="UrlManagerImplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrlManagerImplTest_add - 2018.10.27 at 15h 19m 43s.xml">
+      <configuration name="UrlManagerImplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrlManagerImplTest_add - 2018.10.27 at 15h 21m 52s.xml">
+      <configuration name="UrlManagerImplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrlManagerImplTest_add - 2018.10.27 at 15h 23m 14s.xml">
+      <configuration name="UrlManagerImplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrlManagerImplTest_add - 2018.10.27 at 15h 25m 51s.xml">
+      <configuration name="UrlManagerImplTest.add" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="79087000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2786624" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
+      <window_info anchor="right" id="Bean Validation" order="8" visible="true" weight="0.0075642965" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3280255" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.36146498" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/KeyrecognitionManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/chinese.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/zhaiyao.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/fenci.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/bbb.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/fenci.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/keyrecognition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/chinese.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/bbbb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="207" column="13" lean-forward="true" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/src/main/java/edu/zut/cs/zutnlp/text/base/service/impl/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/src/main/java/edu/zut/cs/zutnlp/text/base/service/GenericManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/grammar/manager/impl/grammarManagerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/src/main/java/edu/zut/cs/zutnlp/cv/description/web/spring/controller/DescriptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/src/main/java/edu/zut/cs/zutnlp/cv/object/web/spring/controller/MyObjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/dao/GrarecognitionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/GrammarManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/src/main/java/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/dao/perinformationDao.java" />
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/domain/perinformation.java" />
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/keyrecognition/manager/impl/KeyrecognitionManagerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/THULAC_java_v1.jar!/org/thunlp/text/classifiers/LiblinearTextClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="471" selection-start-line="471" selection-end-line="471" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/THULAC_java_v1.jar!/org/thunlp/text/classifiers/TextClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/THULAC_java_v1.jar!/org/thunlp/text/classifiers/BasicTextClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1453">
+          <caret line="280" lean-forward="true" selection-start-line="280" selection-end-line="280" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/dao/ClassifyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-base/src/main/java/edu/zut/cs/zutnlp/base/service/impl/GenericManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/ClassifyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/ChineseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ClassifyManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/classify/manager/impl/ClassifyManagerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Url/dao/UrlRecognitionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/UrlManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/UrlManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/url/manager/impl/UrlManagerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="98" column="5" selection-start-line="83" selection-start-column="4" selection-end-line="98" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/dao/ChrecognitionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/pinyin/web/spring/controller/PinyinRecognitionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/TextApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Keyrecognition/domain/Keyrecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Url/domain/UrlRecogntion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/domain/Classify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/classify/web/spring/controller/ClassifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/grammar/web/spring/controller/grammarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/keyrecognition/web/spring/controller/KeyrecognitionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/url/web/spring/controller/UrlRecognititionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zutnlp-text-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: edu.zut.cs.zutnlp:zutnlp-text-dao:unknown</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

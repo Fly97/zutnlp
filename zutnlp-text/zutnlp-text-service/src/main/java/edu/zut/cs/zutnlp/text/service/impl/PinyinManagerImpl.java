@@ -7,16 +7,21 @@ import edu.zut.cs.zutnlp.text.service.PinyinManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 
 @Component
 public class PinyinManagerImpl extends GenericManagerImpl<PinyinRecognition,Long> implements PinyinManager {
 
 
-   private PinyinRecognitionDao pinyinRecognitionDao;
+    private PinyinRecognitionDao pinyinRecognitionDao;
 
     @Autowired
     public void setPinyinRecognitionDao(PinyinRecognitionDao pinyinRecognitionDao) {
         this.pinyinRecognitionDao = pinyinRecognitionDao;
         this.dao=this.pinyinRecognitionDao;
+    }
+    public List<PinyinRecognition> findLastId(){
+        return pinyinRecognitionDao.findLastId();
     }
 }

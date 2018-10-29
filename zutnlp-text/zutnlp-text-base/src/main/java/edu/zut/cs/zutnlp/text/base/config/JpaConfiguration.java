@@ -28,9 +28,9 @@ public class JpaConfiguration {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://202.196.37.91:3306/zutnlp_text?useUnicode=true&characterEncoding=utf8");
-        dataSource.setUsername("zutlnp");
-        dataSource.setPassword("zutlnp");
+        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/zutnlp_text?useUnicode=true&characterEncoding=utf8");
+        dataSource.setUsername("root");
+        dataSource.setPassword("root");
         return dataSource;
     }
 

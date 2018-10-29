@@ -12,5 +12,5 @@ import java.util.List;
 public interface ChrecognitionDao extends GenericDao<Chrecognition,Long> {
 
     @Query(value = "select chrecognition from Chrecognition chrecognition where chrecognition.id = (select max(chrecognition.id) from chrecognition)")
-    public Chrecognition findlastId();
+    public List<Chrecognition> findlastId();
 }

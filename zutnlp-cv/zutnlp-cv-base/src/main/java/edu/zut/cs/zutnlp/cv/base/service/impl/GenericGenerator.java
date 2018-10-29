@@ -10,5 +10,4 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes =TestApplication.class)
 @ContextConfiguration(classes = {JpaConfiguration.class})
 public class GenericGenerator {
-
 }

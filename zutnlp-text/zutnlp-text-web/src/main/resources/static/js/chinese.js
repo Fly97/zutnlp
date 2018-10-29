@@ -6,12 +6,10 @@ var viewmodel = avalon.define({
     text: "请求数据",
     request: function () {
         $.ajax({
-            type: "post",
-            url: "/hanlp/list",    //向后端请求数据的url
+            type: "get",
+            url: "/hanlp/getone",    //向后端请求数据的url
             success: function (data) {
-                $('button').removeClass("btn-primary").addClass("btn-success").attr('disabled', true);
                 viewmodel.datalist = data;
-                viewmodel.text = "数据请求成功";
             }
         });
     }

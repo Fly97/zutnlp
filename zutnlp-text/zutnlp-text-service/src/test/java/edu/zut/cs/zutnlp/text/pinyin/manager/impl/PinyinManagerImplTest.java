@@ -46,7 +46,7 @@ public class PinyinManagerImplTest extends GenericGenerator {
         }
         String t =t1+"   "+t2+"   "+t3;
         py.setT_menthod("Pinyin");
-        py.setT_nlptext(t);
+        py.setT_nlptext1(t);
         pinyinManager.save(py);
 
 
