@@ -2,172 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b27f887f-4523-4a75-85fd-22d389ce1884" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_commons_lang.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-admin/zutnlp-admin-dao/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/config/JpaConfiguration$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/config/JpaConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/controller/GenericController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/dao/GenericDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/domain/BaseDomain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/domain/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/service/GenericManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/service/impl/GenericGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/service/impl/GenericManagerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-base/target/classes/edu/zut/cs/zutnlp/base/service/impl/TestApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-dao/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/css/qas/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/js/image/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/js/qas/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/js/qas/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/page/object/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/page/qas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Keyrecognition/dao/KeyrecognitionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Keyrecognition/domain/Keyrecognition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/dao/ClassifyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Recognition/domain/Classify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Url/dao/UrlRecognitionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Url/domain/UrlRecogntion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/dao/GrarecognitionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/THULAC_java_v1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/apache-commons-lang.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/commons-codec-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/liblinear-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/lib/libsvm.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/model/category" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/model/lexicon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/model/maxFeatures" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/resources/model/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Keyrecognition/dao/KeyrecognitionDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Keyrecognition/domain/Keyrecognition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Recognition/dao/ClassifyDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Recognition/domain/Classify.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Url/dao/UrlRecognitionDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Url/domain/UrlRecogntion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/THULAC_java_v1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/apache-commons-lang.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/commons-codec-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/liblinear-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/lib/libsvm.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/model/category" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/model/lexicon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/model/maxFeatures" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/model/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/ClassifyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/GrammarManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/KeyrecognitionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/UrlManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ClassifyManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/UrlManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/classify/manager/impl/ClassifyManagerImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/grammar/manager/impl/grammarManagerImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/keyrecognition/manager/impl/KeyrecognitionManagerImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/url/manager/impl/UrlManagerImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/ClassifyManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/KeyrecognitionManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/UrlManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/ClassifyManagerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/KeyrecognitionManagerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/UrlManagerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/classify/manager/impl/ClassifyManagerImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/grammar/manager/impl/grammarManagerImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/keyrecognition/manager/impl/KeyrecognitionManagerImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/url/manager/impl/UrlManagerImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/classify/web/spring/controller/ClassifyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/grammar/web/spring/controller/grammarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/keyrecognition/web/spring/controller/KeyrecognitionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/pinyin/web/spring/controller/PinyinRecognitionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/url/web/spring/controller/UrlRecognititionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/css/keyrecognition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/keyrecognition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/zhaiyao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/bbbb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/keyrecognition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/classify/web/spring/controller/ClassifyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/grammar/web/spring/controller/grammarController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/keyrecognition/web/spring/controller/KeyrecognitionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/pinyin/web/spring/controller/PinyinRecognitionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/url/web/spring/controller/UrlRecognititionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/css/keyrecognition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/keyrecognition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/zhaiyao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/bbbb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/keyrecognition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_39.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-base/src/main/java/edu/zut/cs/zutnlp/cv/base/service/impl/GenericGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-base/src/main/java/edu/zut/cs/zutnlp/cv/base/service/impl/GenericGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/src/main/java/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/src/main/java/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/target/classes/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/target/classes/edu/zut/cs/zutnlp/text/base/config/JpaConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-base/zutnlp-text-base.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Abstractkey/dao/KeyrecognitionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Abstractkey/domain/Keyrecognition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/dao/ChrecognitionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/dao/ChrecognitionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Pinyin/dao/PinyinRecognitionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Pinyin/dao/PinyinRecognitionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Pinyin/domain/PinyinRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Pinyin/domain/PinyinRecognition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/dao/grarecognitionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Abstractkey/dao/KeyrecognitionDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Abstractkey/domain/Keyrecognition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Chinese/dao/ChrecognitionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Chinese/dao/ChrecognitionDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Pinyin/dao/PinyinRecognitionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Pinyin/dao/PinyinRecognitionDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Pinyin/domain/PinyinRecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/Pinyin/domain/PinyinRecognition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/grammar/dao/grarecognitionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/grammar/dao/grarecognitionDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/target/classes/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/zutnlp-text-dao.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/AbstractkeyManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/ChineseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/ChineseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/PinyinManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/PinyinManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/grammarManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/AbstractkeyManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/KeyrecognitionManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/PinyinManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/PinyinManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/main/java/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/abstractkey/manager/impl/AbstractkeyManagerImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/pinyin/manager/impl/PinyinManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/src/test/java/edu/zut/cs/zutnlp/text/pinyin/manager/impl/PinyinManagerImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/AbstractkeyManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/ChineseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/ChineseManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/PinyinManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/PinyinManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/grammarManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/grammarManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/AbstractkeyManagerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/ChineseManagerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/PinyinManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/PinyinManagerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/classes/edu/zut/cs/zutnlp/text/service/impl/grammarManagerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/abstractkey/manager/impl/AbstractkeyManagerImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/chinese/manager/impl/ChineseMangerImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/pinyin/manager/impl/PinyinManagerImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-service/target/test-classes/edu/zut/cs/zutnlp/text/pinyin/manager/impl/PinyinManagerImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/TextApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/TextApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/chinese.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/chinese.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/fenci.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/fenci.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/static/js/savetodb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/chinese.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/fenci.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/fenci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/named.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/bbb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/resources/templates/savetodb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/TextApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/TextApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/js/Chinese/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/css/image/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/page/Abstractkey/inedx.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/page/image/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/page/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-web/target/classes/templates/page/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/chinese.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/chinese.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/fenci.js" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/fenci.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/static/js/savetodb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/chinese.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/fenci.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/fenci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/named.html" beforeDir="false" afterPath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/bbb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/target/classes/templates/savetodb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/新建文本文档.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/zutnlp-resource/target/" />
     <ignored path="$PROJECT_DIR$/zutnlp-cv/zutnlp-cv-base/target/" />
@@ -205,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chrecognition.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Chrecognition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChrecognitionController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChrecognitionController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="420">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -253,7 +89,7 @@
       <file leaf-file-name="UrlRecognititionController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/url/web/spring/controller/UrlRecognititionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="210">
               <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -405,8 +241,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -629,6 +463,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -877,7 +713,9 @@
       <workItem from="1540621507193" duration="5119000" />
       <workItem from="1540688889227" duration="2751000" />
       <workItem from="1540713314303" duration="6022000" />
-      <workItem from="1540799646928" duration="2005000" />
+      <workItem from="1540799646928" duration="2607000" />
+      <workItem from="1540814177831" duration="1367000" />
+      <workItem from="1540866528088" duration="375000" />
     </task>
     <servers />
   </component>
@@ -914,10 +752,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79087000" />
+    <option name="totallyTimeSpent" value="81431000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -940,8 +778,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.2786624" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
-      <window_info anchor="right" id="Bean Validation" order="8" visible="true" weight="0.0075642965" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
+      <window_info active="true" anchor="right" id="Bean Validation" order="8" visible="true" weight="0.0075642965" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -1231,16 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/grammar/domain/grarecognition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1303,7 +1131,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/url/web/spring/controller/UrlRecognititionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="210">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1313,8 +1141,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-web/src/main/java/edu/zut/cs/zutnlp/text/chinese/web/spring/controller/ChrecognitionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="420">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zutnlp-text/zutnlp-text-dao/src/main/java/edu/zut/cs/zutnlp/text/Chinese/domain/Chrecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
